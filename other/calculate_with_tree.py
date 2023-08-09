@@ -9,7 +9,6 @@ def build_parse_tree(expr: str):
     prev_stack = Stack()
     tree = BinaryTree("")
     prev_stack.push(tree)
-
     current_tree = tree
 
     for i in tokens:
